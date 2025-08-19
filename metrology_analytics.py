@@ -9,9 +9,9 @@ from datetime import datetime
 # --- Your Snowflake Account Credentials ---
 # IMPORTANT: Replace these with your actual details.
 # For production, use environment variables or a key-pair authentication.
-SNOWFLAKE_USER = "SmrtKat42"
-SNOWFLAKE_PASSWORD = "5BLS3c111%&*$1G2Htd8Gfzc"
-SNOWFLAKE_ACCOUNT = "hbxxfqb-mk42470"  # e.g., 'xyz12345.us-east-1'
+SNOWFLAKE_USER = "UserName"
+SNOWFLAKE_PASSWORD = "UserPassword"
+SNOWFLAKE_ACCOUNT = "UserAccount'
 SNOWFLAKE_WAREHOUSE = "METROLOGY_WH"
 SNOWFLAKE_DATABASE = "FAB_DATA_ANALYTICS"
 SNOWFLAKE_SCHEMA = "METROLOGY"
@@ -170,4 +170,5 @@ if __name__ == "__main__":
             
             # 3. Close the connection.
             conn.close()
+
             print("\nConnection closed. Have a great day! 👋")
