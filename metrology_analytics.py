@@ -11,7 +11,7 @@ from datetime import datetime
 # For production, use environment variables or a key-pair authentication.
 SNOWFLAKE_USER = "UserName"
 SNOWFLAKE_PASSWORD = "UserPassword"
-SNOWFLAKE_ACCOUNT = "UserAccount'
+SNOWFLAKE_ACCOUNT = "UserAccount"
 SNOWFLAKE_WAREHOUSE = "METROLOGY_WH"
 SNOWFLAKE_DATABASE = "FAB_DATA_ANALYTICS"
 SNOWFLAKE_SCHEMA = "METROLOGY"
@@ -172,3 +172,4 @@ if __name__ == "__main__":
             conn.close()
 
             print("\nConnection closed. Have a great day! 👋")
+
